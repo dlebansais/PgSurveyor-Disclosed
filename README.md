@@ -1,5 +1,5 @@
 # Download
-The latest version is [here](/releases/download/v1.0.0.28/PgSurveyor.exe).
+The latest version is [here](https://github.com/dlebansais/PgSurveyor-Disclosed/releases/download/v1.0.0.28/PgSurveyor.exe).
 
 # PgSurveyor
 This application helps players of Project: Gorgon (aka PG) to find gems and metal slabs while surveying in large, hostile zones. It does so by finding the shortest path to take, displaying visual clues such as the next place to go and the associated map to click. It can also calculate and display the location of motherlodes even though only their distance to the player is known.
