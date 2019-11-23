@@ -1,5 +1,5 @@
 # Download
-The latest version is [here](https://github.com/dlebansais/PgSurveyor-Disclosed/releases/download/v1.0.0.94/PgSurveyor.exe).
+The latest version is [here](https://github.com/dlebansais/PgSurveyor-Disclosed/releases/download/v1.0.0.104/PgSurveyor.exe) with updated [release notes](https://github.com/dlebansais/PgSurveyor-Disclosed/ReleaseNotes.md).
 
 # PgSurveyor
 This application helps players of Project: Gorgon (aka PG) to find gems and metal slabs while surveying in large, hostile zones. It does so by finding the shortest path to take, displaying visual clues such as the next place to go and the associated map to click. It can also calculate and display the location of motherlodes even though only their distance to the player is known.
@@ -71,6 +71,12 @@ If you messed up at some point you can always just stop and click the Reset butt
 
 You can check the **Best Path** option. This will calculate an even better and shorter path between maps, but it's much slower. If doing a large survey (50 or more maps) it can easily take a full minute. 
 
+# Skip Map
+
+In some situations it can be desirable to skip the current map. For example, if a motherlode is bugged and cannot be collected. In that case, clicking the **Skip Map** button will have the same effect as if the motherlode had been collected.
+
+If the survey is a normal one (gem or metal), the map must be moved manually to the bottom of the inventory, because the application considers it's been consumed.
+ 
 # Settings
 
 You can change a few settings in the program. This is done by creating a text file called `settings.txt` in the same folder as PgSurveyor.exe. Each line in the file should be the name of the setting, followed by `:` followed by the value.
