@@ -1,0 +1,37 @@
+# 1.0.0.104
+
+This release adds a new feature. The skip map button let you skip a map, for instance when a motherlode is bugged, or the destination is unreachable.
+
+Don't forget to move the skipped map to the bottom of inventory!
+
+# 1.0.0.94
+
+In this release:
++ Added Makara in Ilmari.
++ Improved the shortest path algorithm
++ Removed **Capture Map**, as it was not really useful.
++ Added the **Best Path** option. Warning: it makes calculating the path much slower.
++ Fixed a problem when mining a normal node while doing a run of motherlode nodes.
++ If you click the same map twice, it should count for only one map.
+
+# 1.0.0.43
+
+Adding motherlode surveys had broken normal mining surveys. Fixed.
+
+# 1.0.0.42
+
+Most bugs should be fixed now.
+
+# 1.0.0.36
+ 
+This release fixes 3 bugs:
++ Crash if surveying more than 50 maps (approximately)
++ Crash if collecting while clicking a map before starting the survey.
++ Maps can be outside the zone border and no longer appear at the opposite side.
+
+A new bug has been introduced:
++ Sometimes the shortest path algorithm may forget a map, and will crash when the last map is collected.
+
+# 1.0.0.28
+
++ Special locations in various zones have been checked and fixed. Also, the dependency on QuickGraph has been removed.
