@@ -1,3 +1,10 @@
+# 1.0.0.112
+
+This version brings 3 changes:
++ Added the boatman to the Serbule list.
++ Added a check to detect if an overlap (either the map of the inventory window) was moved outside the screen.
++ Added a setting: `RightToLeft`. Set it to `yes` to change the map click order in inventory.
+
 # 1.0.0.104
 
 This release adds a new feature. The skip map button let you skip a map, for instance when a motherlode is bugged, or the destination is unreachable.
