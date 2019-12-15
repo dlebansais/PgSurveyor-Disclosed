@@ -1,5 +1,5 @@
 # Download
-The latest version (1.0.0.104) is [here](https://github.com/dlebansais/PgSurveyor-Disclosed/releases/download/v1.0.0.104/PgSurveyor.exe) with updated [release notes](https://github.com/dlebansais/PgSurveyor-Disclosed/blob/master/ReleaseNotes.md).
+The latest version (1.0.0.112) is [here](https://github.com/dlebansais/PgSurveyor-Disclosed/releases/download/v1.0.0.112/PgSurveyor.exe) with updated [release notes](https://github.com/dlebansais/PgSurveyor-Disclosed/blob/master/ReleaseNotes.md).
 
 # PgSurveyor
 This application helps players of Project: Gorgon (aka PG) to find gems and metal slabs while surveying in large, hostile zones. It does so by finding the shortest path to take, displaying visual clues such as the next place to go and the associated map to click. It can also calculate and display the location of motherlodes even though only their distance to the player is known.
@@ -85,11 +85,13 @@ The following settings can be changed:
 
 + `DebugMode`: set to `yes` or `no` to turn debug mode on/off. This mode adds small white dots to the map. The further a white dot is from a red dot, the further the corresponding dot is in the survey path.
 + `InventoryRowLength`: the default is 10, but you can change it to the number of slots in each row of your inventory. 
++ `RightToLeft`: set to `yes` or `no` to change the map order in inventory. If set to `no` (the default), maps are expected to be clicked from left to right. Otherwise, from right to left.
 
 A `settings.txt` file with default values would look like this:
     
     DebugMode: no
     InventoryRowLength: 10
+    RightToLeft: no
     
 ## Disclaimer
 
