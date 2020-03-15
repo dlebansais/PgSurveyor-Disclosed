@@ -1,3 +1,7 @@
+# 1.0.0.119
+
+This version includes more settings to customize the borders and points thickness.
+
 # 1.0.0.112
 
 This version brings 3 changes:
