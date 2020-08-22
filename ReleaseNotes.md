@@ -1,3 +1,17 @@
+# 1.0.0.527
+
+This version introduces yet a new version of the shortest path algorithm. Hopefully, better overall for surveying.
+
+Also:
++ Some bug fixes (but ore bugs may have been added)
++ Added support for checking for updates.
++ The GUI has been much improved internally, and looks slightly different now.
++ New locations added in Gazluk
++ The game should no longer freeze when searching for the shortest path.
++ Support for Treasure Cartography maps (and collecting them).
+
+Note: Ilmari is still bad as a map.
+
 # 1.0.0.119
 
 This version includes more settings to customize the borders and points thickness.
