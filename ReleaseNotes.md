@@ -1,3 +1,7 @@
+# 1.0.0.528
+
+Bug fix in the new algorithm.
+
 # 1.0.0.527
 
 This version introduces yet a new version of the shortest path algorithm. Hopefully, better overall for surveying.
