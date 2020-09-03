@@ -1,3 +1,7 @@
+# 1.0.0.535
+
+This release includes improvements to the shortest path algorithm. Consequently, it's become slightly slower.
+
 # 1.0.0.528
 
 Bug fix in the new algorithm.
