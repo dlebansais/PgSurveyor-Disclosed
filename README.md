@@ -90,6 +90,7 @@ The following settings can be changed:
 + `MapPointThickness`: the default is 10, but you can change it to the size of points of your choice inside the map window. 
 + `InventoryBorderThickness`: the default is 10, but you can change it to the thickness of the border of your choice around the inventory window. 
 + `InventoryMapBorderThickness`: the default is 5, but you can change it to the thickness of the border of your choice around survey maps in the inventory window. 
++ `CanFlyOverWalls`: set to `yes` or `no` to take walls into account when calculating the shortest path. If set to `no` (the default), the algorithm will try to get around walls. This applies mostly to Serbule Keep.
 
 A `settings.txt` file with default values would look like this:
     
@@ -100,6 +101,7 @@ A `settings.txt` file with default values would look like this:
     MapPointThickness: 10
     InventoryBorderThickness: 10
     InventoryMapBorderThickness: 5
+    CanFlyOverWalls: no
     
 ## Disclaimer
 
