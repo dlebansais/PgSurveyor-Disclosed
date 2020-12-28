@@ -34,8 +34,7 @@ Next instructions depend on the type of survey: regular, or motherlodes.
 8. Right-click each survey one at a time. You should see:
   + A little red dot added on the map, showing where the gem or metal is expected to be. This should match the game circle and if it doesn't it means the border around the map window isn't adjusted properly. You can still fix it at this stage.
   + A red, dotted border around the map you just clicked. The irregular border may look weird, but it gives you some space to click the next map. A future release may improve the look, but for now it shall do!
-  + If you enabled debug mode (in settings, see below) a white dot shows near the red dot on the map.
-9. Keep clicking them to the last, then click the start button. This is the third button from the right, at the bottom of the border around the map window (check tooltips).
+9. Keep clicking them to the last, then click the start button. This is the first button from the right, at the bottom of the border around the map window (check tooltips).
 10. A yellow dot should appear on the map near the location of your character, and one of the survey maps in your inventory should be highlighted with a yellow border. Run to the yellow dot, right-click the highlighted survey map and blam! Collected!
 11. A new yellow dot appears at the next location, and the corresponding map is highlighted again.
 12. Rinse-repeat until all gems or metal slabs are collected.
@@ -57,7 +56,7 @@ Preliminary note: since only the distance to a motherlode is known, PgSurveyor u
 12. Keep clicking survey maps to the last.
 13. Run to yet another location in the zone different than the other two, then select it in PgSurveyor.
 14. The first survey map is highlighted in blue again, but this time when you click it it will show a red dot on the map. This is where triangulation has put the motherlode. Keep clicking all survey maps and see all red dots show up.
-15. Click the start button. This is the third button from the right, at the bottom of the border around the map window (check tooltips).
+15. Click the start button. This is the first button from the right, at the bottom of the border around the map window (check tooltips).
 16. A yellow dot should appear on the map near to the location of your character, and one of the survey maps in your inventory should be highlighted with a yellow border. Run to the yellow dot, right-click the highlighted survey map and blam! The motherlode appears!
 17. Don't forget to collect the metal. The program updates only after collecting.
 18. A new yellow dot appears at the next location, and the corresponding map is highlighted again.
@@ -66,10 +65,6 @@ Preliminary note: since only the distance to a motherlode is known, PgSurveyor u
 ## Other instructions
 
 If you messed up at some point you can always just stop and click the Reset button to start over. You can also click the Exit button and then restart the program.
-
-# Best Path
-
-You can check the **Best Path** option. This will calculate an even better and shorter path between maps, but it's much slower. If doing a large survey (50 or more maps) it can easily take a full minute. 
 
 # Skip Map
 
@@ -83,7 +78,6 @@ You can change a few settings in the program. This is done by creating a text fi
 
 The following settings can be changed:
 
-+ `DebugMode`: set to `yes` or `no` to turn debug mode on/off. This mode adds small white dots to the map. The further a white dot is from a red dot, the further the corresponding dot is in the survey path.
 + `InventoryRowLength`: the default is 10, but you can change it to the number of slots in each row of your inventory. 
 + `RightToLeft`: set to `yes` or `no` to change the map order in inventory. If set to `no` (the default), maps are expected to be clicked from left to right. Otherwise, from right to left.
 + `MapBorderThickness`: the default is 10, but you can change it to the thickness of the border of your choice around the map window. 
@@ -94,7 +88,6 @@ The following settings can be changed:
 
 A `settings.txt` file with default values would look like this:
     
-    DebugMode: no
     InventoryRowLength: 10
     RightToLeft: no
     MapBorderThickness: 10
