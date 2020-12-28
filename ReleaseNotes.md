@@ -1,3 +1,9 @@
+# 1.1.0.775
+
+This new release includes:
++ Support for walls. The algorithm that calculates the shortest path will try to avoid them. Currently only two walls are defined: the west wall of Serbule Keep and the rift in Kur Moutains (near the entrance to Ice Cave).
++ Fixed an issue with the taskbar icon.
+
 # 1.0.0.535
 
 This release includes improvements to the shortest path algorithm. Consequently, it's become slightly slower.
