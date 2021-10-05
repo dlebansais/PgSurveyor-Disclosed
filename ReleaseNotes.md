@@ -1,3 +1,9 @@
+# 1.1.0.778
+
+Added the Povus zone and some notable spots to start a survey.
+
+Note: surveys are bugged, east/west and north/south are mixed.
+
 # 1.1.0.775
 
 This new release includes:
