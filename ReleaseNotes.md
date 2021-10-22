@@ -1,3 +1,7 @@
+# 1.1.0.780
+
+Last patch (Oct 16th 2021) fixed Povus and the program has been updated accordingly.
+
 # 1.1.0.778
 
 Added the Povus zone and some notable spots to start a survey.
