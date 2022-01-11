@@ -1,3 +1,7 @@
+# 1.1.1.781
+
+This release fixes a crash when a map is collected during the first phase (enumerating maps). Before, the crash would occur at the end of the survey.
+
 # 1.1.0.780
 
 Last patch (Oct 16th 2021) fixed Povus and the program has been updated accordingly.
