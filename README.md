@@ -1,5 +1,5 @@
 # Download
-The latest version (1.1.1.781) is [here](https://github.com/dlebansais/PgSurveyor-Disclosed/releases/download/v1.1.1.781/PgSurveyor.exe) with updated [release notes](https://github.com/dlebansais/PgSurveyor-Disclosed/blob/master/ReleaseNotes.md).
+The latest version (1.1.2.782) is [here](https://github.com/dlebansais/PgSurveyor-Disclosed/releases/download/v1.1.2.782/PgSurveyor.exe) with updated [release notes](https://github.com/dlebansais/PgSurveyor-Disclosed/blob/master/ReleaseNotes.md).
 
 # PgSurveyor
 This application helps players of Project: Gorgon (aka PG) to find gems and metal slabs while surveying in large, hostile zones. It does so by finding the shortest path to take, displaying visual clues such as the next place to go and the associated map to click. It can also calculate and display the location of motherlodes even though only their distance to the player is known.
@@ -99,7 +99,12 @@ A `settings.txt` file with default values would look like this:
 ## Disclaimer
 
 This version of the program is far from perfect, and needs a better GUI or other improvements. Make sure to post your thoughts and suggestions on the game forum or send a private message to my account: Niph.
+    
+## Trobleshooting
 
+If one of the corners of either the map window or the inventory window has been moved outside the screen, you can either:
++ Move all other corners outside too, and the close the application in the taskbar. Upon restarting it, the problem will be detected and fixed automatically.
++ Use the `reset` command-line parameter to reset all borders.
 
 # Certification
 
