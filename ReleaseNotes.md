@@ -1,3 +1,11 @@
+# 1.1.2.782
+
+This release brings:
++ A fix for a crash that could happen if chat logs have never been turned on.
++ Two command-line parameters:
+  * `reset` to reset all borders (to use once when necessary, obviously)
+  * `log` to enable logging (this application, not the game) in `log.txt` if that can help narrowing down a crash.
+
 # 1.1.1.781
 
 This release fixes a crash when a map is collected during the first phase (enumerating maps). Before, the crash would occur at the end of the survey.
