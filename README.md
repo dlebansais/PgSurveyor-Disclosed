@@ -102,8 +102,8 @@ This version of the program is far from perfect, and needs a better GUI or other
     
 ## Trobleshooting
 
-If one of the corners of either the map window or the inventory window has been moved outside the screen, you can either:
-+ Move all other corners outside too, and the close the application in the taskbar. Upon restarting it, the problem will be detected and fixed automatically.
+If one of the corners of the map window or the inventory window has been moved outside the screen, you can either:
++ Move all other corners outside too, and then close the application in the taskbar. Upon restarting it, the problem will be detected and fixed automatically.
 + Use the `reset` command-line parameter to reset all borders.
 
 # Certification
