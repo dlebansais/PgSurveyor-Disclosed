@@ -100,7 +100,7 @@ A `settings.txt` file with default values would look like this:
 
 This version of the program is far from perfect, and needs a better GUI or other improvements. Make sure to post your thoughts and suggestions on the game forum or send a private message to my account: Niph.
     
-## Trobleshooting
+## Troubleshooting
 
 If one of the corners of the map window or the inventory window has been moved outside the screen, you can either:
 + Move all other corners outside too, and then close the application in the taskbar. Upon restarting it, the problem will be detected and fixed automatically.
