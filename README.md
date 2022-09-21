@@ -120,7 +120,7 @@ ln -s $PROTON_ELDER_GAME $WINE_PREFIX/drive_c/users/$USER/AppData/LocalLow/Elder
 If you're using a custom wine configuration, you'll have to set the wine prefix to wherever you configured it to be.
 Any questions you have about this should be directed to [Castone22](https://github.com/Castone22) instead of the program's author.
 
-There exists a small bug with WINE and programs that create overlays where interacting with the overlay and clicking anything else will cause the wine virtual desktop to take focus, preventing you from interacting with anything on the screen (including the overlay).  You can work around this by switching windows (alt+tab in most distributions)
+There exists a small bug with WINE and programs that create overlays where interacting with the overlay and clicking anything else will cause the wine virtual desktop to take focus, preventing you from interacting with anything on the screen (including the overlay).  You can work around this by switching windows (alt+tab in most distributions).  There's nothing the author can do to fix this, it is a bug in WINE itself.
 
 # Certification
 
