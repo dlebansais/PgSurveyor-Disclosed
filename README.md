@@ -107,7 +107,7 @@ If one of the corners of the map window or the inventory window has been moved o
 + Use the `reset` command-line parameter to reset all borders.
 
 ## Linux
-It's possible to run PGSurveyor under WINE in linux with some clever use of symlinks. By Default Project Gorgon will save your logs to `$HOME/.config/unity3d/Elder Game/Project Gorgon/ChatLogs/'`
+It's possible to run PGSurveyor under WINE in linux with some clever use of symlinks. By Default Project Gorgon will save your logs to `$HOME/.config/unity3d/Elder Game/Project Gorgon/ChatLogs/`
 You'll need to have wine installed, and a prefix set up (wine will do this by default for you in most distributions)
 By default your wine prefix will be `$HOME/.wine`
 
