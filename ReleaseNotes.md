@@ -1,3 +1,9 @@
+# 1.1.3.792
+
+This release includes updated locations for the new Kur Moutains and Eltibule maps (October 10 2022 game update).
+
+Also there are new settings for colors (see the readme for more info).
+
 # 1.1.2.782
 
 This release brings:
