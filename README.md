@@ -1,5 +1,5 @@
 # Download
-The latest version (1.1.3.792) is [here](https://github.com/dlebansais/PgSurveyor-Disclosed/releases/download/v1.1.3.792/PgSurveyor.exe) with updated [release notes](https://github.com/dlebansais/PgSurveyor-Disclosed/blob/master/ReleaseNotes.md).
+The latest version (1.1.4.795) is [here](https://github.com/dlebansais/PgSurveyor-Disclosed/releases/download/v1.1.4.795/PgSurveyor.exe) with updated [release notes](https://github.com/dlebansais/PgSurveyor-Disclosed/blob/master/ReleaseNotes.md).
 
 # PgSurveyor
 This application helps players of Project: Gorgon (aka PG) to find gems and metal slabs while surveying in large, hostile zones. It does so by finding the shortest path to take, displaying visual clues such as the next place to go and the associated map to click. It can also calculate and display the location of motherlodes even though only their distance to the player is known.
@@ -85,7 +85,7 @@ The following settings can be changed:
 + `InventoryBorderThickness`: the default is 10, but you can change it to the thickness of the border of your choice around the inventory window. 
 + `InventoryMapBorderThickness`: the default is 5, but you can change it to the thickness of the border of your choice around survey maps in the inventory window. 
 + `CanFlyOverWalls`: set to `yes` or `no` to take walls into account when calculating the shortest path. If set to `no` (the default), the algorithm will try to get around walls. This applies mostly to Serbule Keep.
-+ `MapBorderBrush`, `MapThumbBrush`, `InventoryBorderBrush`, `InventoryThumbBrush`, `GripPressedBrush`, `GripReleasedBrush`: these are modifiable colors for the corresponding GUI elements. Note that *Grip* and *Thumb* are the same thing, this just a mistake in names that will be corrected in the next release (it will be *Grip*). You use colors like `Purple` or a custom color in ARGB format like `#FF0000FF` for blue.
++ `MapBorderBrush`, `MapGripBrush`, `MapCircleDefaultBrush`, `MapCircleSideBrush`, `MapCircleCurrentBrush`, `MapCircleReferenceBrush`, `InventoryBorderBrush`, `InventoryGripBrush`, `InventorySquareDefaultBrush`, `InventorySquareSideBrush`, `InventorySquareCurrentBrush`, `GripPressedBrush`, `GripReleasedBrush`: these are modifiable colors for the corresponding GUI elements. You use colors like `Purple` or a custom color in ARGB format like `#FF0000FF` for blue.
 
 A `settings.txt` file with default values would look like this:
     
@@ -97,9 +97,16 @@ A `settings.txt` file with default values would look like this:
     InventoryMapBorderThickness: 5
     CanFlyOverWalls: no
     MapBorderBrush: Red
-    MapThumbBrush: Green
+    MapGripBrush: Green
+    MapCircleDefaultBrush: Red
+    MapCircleSideBrush: Cyan
+    MapCircleCurrentBrush: Yellow
+    MapCircleReferenceBrush: Green
     InventoryBorderBrush: Purple
-    InventoryThumbBrush: Green
+    InventoryGripBrush: Green
+    InventorySquareDefaultBrush: Red
+    InventorySquareSideBrush: Cyan
+    InventorySquareCurrentBrush: Yellow
     GripPressedBrush: Orange
     GripReleasedBrush: Blue
     
