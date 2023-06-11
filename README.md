@@ -17,6 +17,7 @@ You must enable chat logs in the game settings. This is done in the V.I.P sectio
 
 ![Chat Logs settings](/Screenshots/ChatLogs.png?raw=true "Chat Logs settings")
 
+## Setting up the program
 I recommend to add the program to the Windows taskbar, this makes interacting with the game less weird.
 Then, the program should be used as follow:
 
