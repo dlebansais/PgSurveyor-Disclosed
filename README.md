@@ -12,6 +12,11 @@ Visual clues are displayed over the game window in a separate, but transparent, 
 Because of the some restrictions in the operating system, this is possible only if the game is played in windowed mode. Full-screen mode is not supported.
 
 # Instructions
+## Enable Chat Logs
+You must enable chat logs in the game settings. This is done in the V.I.P section (for now).
+
+![Chat Logs settings](/Screenshots/ChatLogs.png?raw=true "Chat Logs settings")
+
 I recommend to add the program to the Windows taskbar, this makes interacting with the game less weird.
 Then, the program should be used as follow:
 
