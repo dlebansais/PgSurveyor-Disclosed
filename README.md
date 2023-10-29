@@ -27,7 +27,7 @@ Then, the program should be used as follow:
 4. Open the inventory, and resize it so that all survey maps are visible, aligned in rows starting at the first slot in the row. The program assumes a row is made of 10 maps, but this can be changed in the settings (see below). Also the game assumes all maps are visible and that no scrolling will be necessary to show them all.
 5. Launch PgSurveyor. Two shiny, colored borders are displayed. The red border is for the map window, the purple border for the inventory window.
 6. Drag the top-left and bottom-right corner of each border to align them with the corresponding window in the game. The border around the map window should adjust exactly around the zoomed map, and the border for the inventory window exactly around survey maps that will be clicked. The screenshot below demonstrates a game all set and ready to start.
-7. Select the zone being surveyed, and the location from where you're starting (note: Kur Mountain will be added in a future release). Make sure your actual location in the game and the one selected in PgSurveyor match, otherwise the program will be completely lost and visual clues won't make any sense...
+7. Select the zone being surveyed, and the location from where you're starting. Make sure your actual location in the game and the one selected in PgSurveyor match, otherwise the program will be completely lost and visual clues won't make any sense...
 
 ![Border around the map window](/Screenshots/MapBorder.png?raw=true "Border around the map window")
 
@@ -127,20 +127,21 @@ If one of the corners of the map window or the inventory window has been moved o
 + Use the `reset` command-line parameter to reset all borders.
 
 ## Linux
-It's possible to run PGSurveyor under WINE in linux with some clever use of symlinks. By Default Project Gorgon will save your logs to `$HOME/.config/unity3d/Elder Game/Project Gorgon/ChatLogs/`
-You'll need to have wine installed, and a prefix set up (wine will do this by default for you in most distributions)
-By default your wine prefix will be `$HOME/.wine`
+It's possible to run PGSurveyor under Wine in linux with some clever use of symlinks. By default Project Gorgon will save your logs to `$HOME/.config/unity3d/Elder Game/Project Gorgon/ChatLogs/`
 
-Provided the a default wine configuration...
+You'll need to have Wine installed, and a prefix set up (Wine will do this by default for you in most distributions.)
+By default your Wine prefix will be `$HOME/.wine`
+
+Default Wine configuration:
 ```bash
 export PROTON_ELDER_GAME=$HOME/.config/unity3d/Elder\ Game
 export WINE_PREFIX=$HOME/.wine
 ln -s $PROTON_ELDER_GAME $WINE_PREFIX/drive_c/users/$USER/AppData/LocalLow/Elder\ Game/Project\ Gorgon/
 ```
-If you're using a custom wine configuration, you'll have to set the wine prefix to wherever you configured it to be.
+If you're using a custom Wine configuration, you'll have to set the Wine prefix to wherever you configured it to be.
 Any questions you have about this should be directed to [Castone22](https://github.com/Castone22) instead of the program's author.
 
-There exists a small bug with WINE and programs that create overlays where interacting with the overlay and clicking anything else will cause the wine virtual desktop to take focus, preventing you from interacting with anything on the screen (including the overlay).  You can work around this by switching windows (alt+tab in most distributions).  There's nothing the author can do to fix this, it is a bug in WINE itself.
+There exists a small bug with Wine and programs that create overlays where interacting with the overlay and clicking anything else will cause the wine virtual desktop to take focus, preventing you from interacting with anything on the screen (including the overlay).  You can work around this by switching windows (alt+tab in most distributions).  There's nothing the author can do to fix this, it is a bug in Wine itself.
 
 # Certification
 
