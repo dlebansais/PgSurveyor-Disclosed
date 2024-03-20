@@ -1,3 +1,8 @@
+# 1.1.4.802
+
+The GUI has been changed to not stack the zone and location selection boxes, to accommodate for small screens.
+The new code also requires .NET Framework 4.8.1 (because I like latest versions of things.)
+
 # 1.1.3.792
 
 This release includes updated locations for the new Kur Moutains and Eltibule maps (October 10 2022 game update).
