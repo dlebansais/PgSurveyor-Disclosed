@@ -1,3 +1,7 @@
+# 1.2.0.804
+
+Added Vidaria, and for Povus the location of the portal to Vidaria.
+
 # 1.1.4.802
 
 The GUI has been changed to not stack the zone and location selection boxes, to accommodate for small screens.
@@ -107,3 +111,4 @@ A new bug has been introduced:
 # 1.0.0.28
 
 + Special locations in various zones have been checked and fixed. Also, the dependency on QuickGraph has been removed.
+
