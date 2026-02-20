@@ -72,6 +72,8 @@ Preliminary note: since only the distance to a motherlode is known, PgSurveyor u
 
 If you messed up at some point you can always just stop and click the Reset button to start over. You can also click the Exit button and then restart the program.
 
+If the survey is in Povus or Vidaria, the program cannot detect when the node is exhausted. In this case, just click the Skip button to highlight the next node.
+
 # Skip Map
 
 In some situations it can be desirable to skip the current map. For example, if a motherlode is bugged and cannot be collected. In that case, clicking the **Skip Map** button will have the same effect as if the motherlode had been collected.
