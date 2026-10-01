@@ -1,5 +1,5 @@
 # Download
-The latest version (1.2.0.804) is [here](https://github.com/dlebansais/PgSurveyor-Disclosed/releases/download/v1.2.0.804/PgSurveyor.exe) with updated [release notes](https://github.com/dlebansais/PgSurveyor-Disclosed/blob/master/ReleaseNotes.md).
+The latest version (1.1.4.795) is [here](https://github.com/dlebansais/PgSurveyor-Disclosed/releases/download/v1.1.4.795/PgSurveyor.exe) with updated [release notes](https://github.com/dlebansais/PgSurveyor-Disclosed/blob/master/ReleaseNotes.md).
 
 # PgSurveyor
 This application helps players of Project: Gorgon (aka PG) to find gems and metal slabs while surveying in large, hostile zones. It does so by finding the shortest path to take, displaying visual clues such as the next place to go and the associated map to click. It can also calculate and display the location of motherlodes even though only their distance to the player is known.
@@ -13,7 +13,7 @@ Because of the some restrictions in the operating system, this is possible only 
 
 # Instructions
 ## Enable Chat Logs
-You must enable chat logs in the game settings. This is done in the V.I.P section (for now).
+You must enable chat logs in the game settings. This is done in the GUI section.
 
 ![Chat Logs settings](/Screenshots/ChatLogs.png?raw=true "Chat Logs settings")
 
@@ -71,8 +71,6 @@ Preliminary note: since only the distance to a motherlode is known, PgSurveyor u
 ## Other instructions
 
 If you messed up at some point you can always just stop and click the Reset button to start over. You can also click the Exit button and then restart the program.
-
-If the survey is in Povus or Vidaria, the program cannot detect when the node is exhausted. In this case, just click the Skip button to highlight the next node.
 
 # Skip Map
 
